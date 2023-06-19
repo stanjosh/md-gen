@@ -1,5 +1,5 @@
 # md-gen
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 
 This is a CLI readme.md generator for projects. It was made with node.js using the inquirer package.
