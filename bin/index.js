@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import inquirer from "inquirer";
 import fs from "fs";
-const currentPath = new URL(".", import.meta.url);
+const currentPath = process.cwd();
 
 async function buildReadme() {
   await inquirer
