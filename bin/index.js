@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 import fs from "fs";
 const currentPath = new URL(".", import.meta.url);

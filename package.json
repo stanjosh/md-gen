@@ -1,15 +1,19 @@
 {
-  "dependencies": {
-    "inquirer": "^9.2.6"
+  "name" : "md-gen",
+  "description" : "Generates a readme.md file for a github project",
+  "version" : "0.1.0",
+  "main" : "bin/index.js",
+    "dependencies" : {
+    "inquirer" : "9.2.6"
   },
-  "name": "md-gen",
-  "description": "Generates a readme.md file for a github project",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts" : {
+    "run" : "node index.js"
   },
-  "author": "Joshua Stanford",
-  "license": "MIT",
-  "type": "module"
+  "author" : "Joshua Stanford",
+  "license" : "MIT",
+  "type" : "module",
+  "bin" : {
+  	"md-gen" : "./bin/index.js"
+  }
+
 }
