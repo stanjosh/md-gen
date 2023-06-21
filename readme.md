@@ -4,6 +4,16 @@
 
 This is a CLI readme.md generator for projects. It was made with node.js using the inquirer package.
 
+## Table of Contents
+[Installation](#installation)
+
+[Usage](#usage)
+
+[Credits](#credits)
+
+[License](#license)
+
+
 ## Installation
 
 Requires nodejs and inquirer. Extract or clone the repo using
